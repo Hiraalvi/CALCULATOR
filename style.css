@@ -1,0 +1,23 @@
+.main
+{
+    
+}
+
+.inp{
+height: 60px;
+  
+}
+.btn{
+    border-radius: 40%;
+    width: 30px; 
+}
+.btl
+{
+    width: 30px;
+    height: 50px;
+    border-radius: 30%;
+}
+.btnl{
+    width: 60px;
+    border-radius: 30%;
+}

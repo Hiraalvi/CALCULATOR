@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  style="background-color: peru;">
+    <div  class="main mx-auto mt-4 border border-secondary w-25 p-3 bg-dark">
+        
+    <table>
+            <tr>
+                <input class="w-100 p-3"  id="result" type="text" >
+            </tr>
+            <tr>
+          <td><button style="width: 60px; height: 35px;" class="btn mt-3 ml-2 alert-light border border-light" onclick="clearResult('c')">C</button></td>
+          <td><button style="width: 60px; height: 35px;" class="btn mt-3 ml-2 alert-light border border-light" onclick="givingNum('/')">/</button></td>
+          <td><button style="width: 60px; height: 35px;" class="btn mt-3 ml-2 alert-light border border-light" onclick="givingNum('*')">X</button></td>
+          <td><button style="width: 60px; height: 35px;" class="btn mt-3 ml-2 border border-danger bg-danger text-white " onclick="givingNum('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button style="width: 60px; height: 35px;" class="btn mt-2 ml-2 alert-light border border-light" onclick="givingNum('7')">7</button></td>
+            <td><button style="width: 60px; height: 35px;" class="btn mt-2 ml-2 alert-light border border-light" onclick="givingNum('8')">8</button></td>
+           <td> <button style="width: 60px; height: 35px;" class="btn mt-2 ml-2 alert-light border border-light" onclick="givingNum('9')">9</button></td>
+            <td rowspan="2" ><button style="width: 60px; height: 75px;" class="btl mt-2 ml-2 border border-danger bg-danger text-white" onclick="givingNum('+')">+</button></td>
+        </tr>
+        <tr>
+           <td> <button style="width: 60px; height: 35px;" class="btn mt-2 ml-2 alert-light border border-light" onclick="givingNum('4')">4</button></td>
+           <td> <button style="width: 60px; height: 35px;" class="btn mt-2 ml-2 alert-light border border-light" onclick="givingNum('5')">5</button></td>
+            <td><button style="width: 60px; height: 35px;" class="btn mt-2 ml-2 alert-light border border-light" onclick="givingNum('6')">6</button></td>
+            <td ></td>
+        </tr>
+        <tr>
+            <td><button style="width: 60px; height: 35px;" class="btn mt-2 ml-2 alert-light border border-light" onclick="givingNum('1')">1</button></td>
+            <td><button style="width: 60px; height: 35px;" class="btn mt-2 ml-2 alert-light border border-light" onclick="givingNum('2')">2</button></td>
+            <td><button style="width: 60px; height: 35px;" class="btn mt-2 ml-2 alert-light border border-light" onclick="givingNum('3')">3</button></td>
+            <td rowspan="2"><button style="width: 60px; height: 75px;" class="btl mt-2 ml-2 border border-danger bg-danger text-white" onclick="getResult('=')">=</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button style="width: 130px; height: 35px;" class="btnl mt-2 ml-2 border border-light bg-white text-dark" onclick="givingNum('0')">0</button></td>
+            <td><button style="width: 60px; height: 35px;" class="btn mt-2 ml-2 alert-light border border-light" onclick="givingNum('.')">.</button></td>
+            
+        </tr>
+    </table>
+
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
